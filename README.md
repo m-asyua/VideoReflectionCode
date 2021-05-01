@@ -7,8 +7,8 @@ Video reflection tool for coding on the web
 This tool records a program making canvas on a web page and consequent error messages for a specific duration. Users can review their programs and consequent errors on a web page. Most users do not remember the cause of error messages. This will be a useful tool for beginners learning to code. The recorded video can be played at double or faster speeds for quicker review, and once recorded, the video is immediately available for download.
 
 ## Caution
--	Primrose is used as an editor on a web page canvas. Therefore, users must download Primrose.
--	An online-compiler function is not included, and is therefore required prior to connecting the tool. Inaccurate implementation and incorrect use of the online-compiler may lead to security lapses. Users are advised to familiarize themselves with any potential security risks before using this tool. Online compiler was used in our demo video.
+-	Primrose (https://github.com/capnmidnight/Primrose) is used as an editor on a web page canvas. Therefore, users must download Primrose.
+-	An online compiler function is not included, and is therefore required prior to connecting the tool. Inaccurate implementation and incorrect use of the online compiler may lead to security lapses. Users are advised to familiarize themselves with any potential security risks before using this tool. Online-Compiler (https://github.com/shawon100/Online-Compiler) was used in our demo video.
 
 ## About the code
 The sample page records the program editing behavior. The "index.js" code in Primrose was used to create this sample. As connecting an online compiler from this sample may result in security lapses, careful implementation is recommended in vulnerable networks.
