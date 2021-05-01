@@ -42,3 +42,28 @@ var get_url= your_site_url+"?code="+code+"&input="+input;
 - The parameters should be customized to fit your online compiler.
 - This tool should be used carefully outside a localhost. 
 - The tool is designed to send code and receive the executed or compiled output. The sample code employs Ajax to send and receive data.
+
+## Additional comment
+
+If you get an error on `primrose.js:603` in console.log, you may be able to fix it by modifying the following.
+
+`
+primrose.js:603:21 Uncaught TypeError: row.tokens[(row.tokens.length - 1)] is undefined
+`
+`
+primrose.js:603 Uncaught TypeError: Cannot read property 'type' of undefined
+`
+
+```
+603:                if (row.tokens[row.tokens.length - 1].type === "newlines") {
+604:                    ++currentLineNumber;
+605:                }
+```
+
+```
+603:                if(row.tokens.length - 1>=0){
+604:                    if (row.tokens[row.tokens.length - 1].type === "newlines") {
+605:                    ++currentLineNumber;
+606:                }
+607:
+```                  
