@@ -2,8 +2,6 @@
 Video reflection tool for coding on the web
 
 
-Video reflection tool for coding on the web
-
 Overview
 This tool records a program making canvas on a web page and consequent error messages for a specific duration. Users can review their programs and consequent errors on a web page. Most users do not remember the cause of error messages. This will be a useful tool for beginners learning to code. The recorded video can be played at double or faster speeds for quicker review, and once recorded, the video is immediately available for download.
 
