@@ -64,7 +64,7 @@ primrose.js:603 Uncaught TypeError: Cannot read property 'type' of undefined
 ```
 603:                if(row.tokens.length - 1>=0){
 604:                    if (row.tokens[row.tokens.length - 1].type === "newlines") {
-605:                    ++currentLineNumber;
-606:                }
-607:
+605:                        ++currentLineNumber;
+606:                    }
+607:                }
 ```                  
