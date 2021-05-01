@@ -16,14 +16,15 @@ The sample page records the program editing behavior. The "index.js" code in Pri
 ## How to execute
 -	Prepare apache and PHP (xampp is a good choice)
 -	Download Primrose. Please ensure that index.html can be used in Primrose, through a web browser. 
-     For example, access http: //localhost/(primorose directory)/index.html and look for the Primrose demo page.
+     For example, access ` http://localhost/(primorose directory)/index.html ` and look for the Primrose demo page.
 -	Copy the record_test.js, record_test.php, and record_test.txt files to the Primrose directory.
--	Access http: //localhost/(primorose directory)/record_test.php and look for our demo recording.
+-	Access ` http://localhost/(primorose directory)/record_test.php ` and look for our demo recording.
 -	Set the recording time using the following parameters after adding the .php file name. 
 
 ### For example,
-
-http ://localhost/(primorose directory)/record_test.php?timer=60000&autostart=1
+```
+http://localhost/(primorose directory)/record_test.php?timer=60000&autostart=1
+```
 ```
 timer=60000   length of time (milliseconds)
 
