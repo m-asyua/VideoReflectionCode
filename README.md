@@ -1,9 +1,8 @@
 # VideoReflectionCode
 Video reflection tool for coding on the web
 
-(Under construction)
+<img src="https://user-images.githubusercontent.com/83494645/116784336-b4e7b100-aace-11eb-8bfa-081c1d0904ca.gif" width="400">
 
-![record_demo](https://user-images.githubusercontent.com/83494645/116784336-b4e7b100-aace-11eb-8bfa-081c1d0904ca.gif)
 
 ## Overview
 This tool records a program making canvas on a web page and consequent error messages for a specific duration. Users can review their programs and consequent errors on a web page. Most users do not remember the cause of error messages. This will be a useful tool for beginners learning to code. The recorded video can be played at double or faster speeds for quicker review, and once recorded, the video is immediately available for download.
