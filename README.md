@@ -50,6 +50,7 @@ If you get an error on `primrose.js:603` in console.log, you may be able to fix 
 `
 primrose.js:603:21 Uncaught TypeError: row.tokens[(row.tokens.length - 1)] is undefined
 `
+
 `
 primrose.js:603 Uncaught TypeError: Cannot read property 'type' of undefined
 `
