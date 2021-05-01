@@ -45,7 +45,7 @@ var get_url= your_site_url+"?code="+code+"&input="+input;
 
 ## Additional comment
 
-If you get an error on `primrose.js:603` in console.log, you may be able to fix it by modifying the following.
+If you get an error on `primrose.js:603` in console.log, you may be able to fix it by modifying the following in primrose.js. (This is a temporary solution. Please find a perfect way.)
 
 `
 primrose.js:603:21 Uncaught TypeError: row.tokens[(row.tokens.length - 1)] is undefined
