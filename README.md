@@ -24,18 +24,20 @@ The sample page records the program editing behavior. The "index.js" code in Pri
 ### For example,
 
 http ://localhost/(primorose directory)/record_test.php?timer=60000&autostart=1
-
+```
 timer=60000   length of time (milliseconds)
 
 autostart=1    enable autostart
-
+```
 
 The recording will begin automatically at the final minute if the above parameters (timer=60000 and autostart=1) are set.
 
 ## About the customizations
 
 ### For example,
+```
 var get_url= your_site_url+"?code="+code+"&input="+input;
+```
 - The parameters should be customized to fit your online compiler.
 - This tool should be used carefully outside a localhost. 
 - The tool is designed to send code and receive the executed or compiled output. The sample code employs Ajax to send and receive data.
